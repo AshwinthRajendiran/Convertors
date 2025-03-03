@@ -35,7 +35,7 @@
                         <legend>Temperature</legend>
                         <label for="Temperature">Celsius</label> <br/>
                         <input type="number" id="c"> <br/>
-                        <button id="temperature">Convert</button><br>
+                        <button id="temperature" onclick="return temperature()">Convert</button><br>
                         <input type="number" id="f"> <br/>
                         <label for="Temperature">Fahrenheit</label>
                         </fieldset>
@@ -61,7 +61,7 @@
                         <legend>Weight</legend>
                         <label for="Weight">Kilogram</label><br>
                         <input type="number" id="kg"><br>
-                        <button id="Weight">Convert</button><br>
+                        <button id="Weight" onclick="return weight()">Convert</button><br>
                         <input type="number" id="pounds"><br>
                         <label for="Weight">Pounds</label><br>
                     </fieldset>
@@ -88,8 +88,8 @@
                         <legend>Distance</legend>
                         <label for="" id="distance"></label><br>
                         <input type="number" id="km"><br>
-                        <button id="distance">convert</button><br>
-                        <input type="number" name="" id="distance"><br>
+                        <button id="distance" onclick="return distance()">convert</button><br>
+                        <input type="number" name="" id="mile"><br>
                         <label for="" id="distance">Miles</label><br>
                     </fieldset>
                     <aside>
@@ -108,6 +108,7 @@
         </a>
     </div>
     <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification</footer>
-
+    
+    <script src="script.js"></script>
 </body>
 </html>
